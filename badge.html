@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AWS UG Jaipur - Rajasthan </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/logo-update.jpg" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+  <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+<style>
+  .card {
+    margin: auto;
+    background-image: url(./assets/img/bg_card.png);
+    /* background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 22em;
+    height: 28em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff !important;
+    /* margin: 2em auto; */
+    z-index: 100;
+  }
+  #card1{
+    background-image: url(./assets/img/Badges/profilephoto2.png);
+  }
+  #card2{
+    background-image: url(./assets/img/Badges/fullbadgelogo.png);
+  }
+  
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+
+      <div id="logo" class="me-auto">
+        <a href="index.html" class="scrollto"><img src="assets/img/TransparentUGDarklogo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          
+          <a class="buy-tickets scrollto" style="color: white;padding: 7px 22px;" href="./index.html"
+            ><i class="fas fa-arrow-left" style="padding-right: 10px;"></i> Home</a>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a class="buy-tickets scrollto" href="#"
+        onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSc49SXvGKJftGUBoO5bFOGjLZNroxZ5oFLTYPmxhMrgv9ihaw/viewform?hl=en');">Register
+        Now</a>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="phero">
+    <div class="phero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="mb-4 pb-0">Download Your<br><span>Participation</span> Badge</h1>
+      <div class="photo_upload">
+        <div id="bphoto">
+          <h2 style="color: white"><b>With your Photo</b></h2>
+          <div class="card cardwp" id="card1">
+            <!-- <div class="card-header">
+              <img src="./assets/img/TransparentUGDarklogo.png" alt="logo" />
+            </div> -->
+            <div class="card-body">
+              <!-- <span class="tag tag-teal">AWS UG EVENT</span> -->
+
+              <div class="user">
+                <img src="./assets/img/Badges/babyyoda.png" alt="user" class="userImg" />
+              </div>
+              <!-- <p>I am attending</p>
+              <h1 class="card-head">OSTech Conf 2021</h1> -->
+            </div>
+          </div>
+          <div>
+            <input type="file" id="mypht" style="padding-top: 18px" /><br />
+            <button type="submit" id="d_photo" " >Download</button>
+          </div>
+        </div>
+        <div id="bnophoto">
+          <h2 style="color: white"><b>Without your Photo</b></h2>
+          <div class="card cardwop" id="card2">
+            <!-- <div class="card-header">
+              <img src="./assets/img/TransparentUGDarklogo.png" alt="logo" />
+            </div> -->
+            <div class="card-body">
+              <!-- <span class="tag tag-teal">AWS UG EVENT</span> -->
+               <div class="text">
+                <!-- <p>I am attending</p>
+                <h1 class="card-head">OSTech Conf 2021</h1> -->
+              </div> 
+            </div>
+          </div>
+          <div>
+            <button type="submit" id="d1_photo">Download</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section><!-- End Hero Section -->
+
+  
+
+  <footer id="footer" class=" text-center text-white" style="padding-top:50px">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+
+        <!-- Twitter -->
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/awsugjaipur" role="button"><i id="sicon"
+            class="fab fa-twitter"></i></a>
+
+         
+        <!-- Linkedin -->
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/awsjaipur/" role="button"><i id="sicon"
+            class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://github.com/AWS-User-Group-Jaipur-Rajasthan" role="button"><i id="sicon" class="fab fa-github"></i></a>
+
+        <!-- Slack -->
+
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://awsugjaipur.slack.com" role="button"><i id="sicon" class="fab fa-slack"></i></a>
+
+        <!-- You tube -->
+
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://bit.ly/awsugjpr" role="button"><i id="sicon" class="fab fa-youtube"></i></a>
+
+        
+        <!-- Instagram -->
+        <a id="socialicon" class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/awsugjaipur/" role="button"><i id="sicon"
+          class="fab fa-instagram"></i></a>
+
+
+      </section>
+      <br>
+      <strong>Email:</strong> <a class="email__link" href="#awsusergroupjaipur.raj@gmail.com" style="color: #fff; ">awsusergroupjaipur.raj@gmail.com </a> <br>
+      <br>
+    </div>
+    <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="#">AWS UG Jaipur - Rajasthan</a>
+      <p>Made with <span style="color: #e25555;">&hearts;</span> by AWS UG Jaipur</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script>
+  //previous
+  const cardwp = document.querySelector('.cardwp');
+  const cardwop = document.querySelector('.cardwop');
+  const btnUpload = document.querySelector('#u_photo');
+  const btnDownload2 = document.querySelector('#d1_photo');
+  const btnDownload = document.querySelector('#d_photo');
+  const input = document.querySelector('#mypht');
+  const image = document.querySelector('.userImg');
+  let file;
+
+btnDownload.addEventListener('click', async () => {
+	if (!file) {
+		alert('please upload photo');
+		return;
+	}
+  const newCard = cardwp
+  newCard.style.width='350px'
+  newCard.style.height='450px'
+	btnDownload.innerHTML = 'Downloading...';
+	domtoimage
+				.toPng(newCard)
+				.then(function (dataUrl) {
+					var img = new Image();
+					img.src = dataUrl;
+					downloadURI(dataUrl, 'AWSUGjprBadge.png');
+				})
+				.catch(function (error) {
+					console.error('oops, something went wrong!', error);
+				});
+	btnDownload.innerHTML = await 'Download';
+});
+
+btnDownload2.addEventListener('click', async () => {
+	btnDownload2.innerHTML = 'Downloading...';
+	domtoimage
+				.toPng(cardwop)
+				.then(function (dataUrl) {
+					var img = new Image();
+					img.src = dataUrl;
+					downloadURI(dataUrl, 'AWSUGJAIPUR-badge.png');
+				})
+				.catch(function (error) {
+					console.error('oops, something went wrong!', error);
+				});
+	btnDownload2.innerHTML = await 'Download';
+});
+
+function downloadURI(uri, name) {
+			var link = document.createElement('a');
+			link.download = name;
+			link.href = uri;
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+			delete link;
+		}
+
+input.addEventListener('change', () => {
+	file = input.files[0];
+	console.log(file);
+
+	const reader = new FileReader();
+	reader.readAsDataURL(file);
+	console.log(file);
+	reader.addEventListener('load', () => {
+		image.setAttribute('src', reader.result);
+	});
+});
+
+</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
