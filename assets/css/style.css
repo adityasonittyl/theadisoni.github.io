@@ -639,6 +639,7 @@ h6 {
 	position: relative;
 	color: #fff;
 	padding: 60px 0 40px 0;
+	height: 800px;
 }
 
 @media (min-width: 1024px) {
@@ -673,7 +674,7 @@ h6 {
 }
 
 #about p {
-	font-size: 22px;
+	font-size: 20px;
 	margin-bottom: 10px;
 	color: #fff;
 }
@@ -683,19 +684,61 @@ h6 {
 	align-items: center;
 }
 
-.anime-img {
-	height: 100%;
-	width: 50em;
-	align-items: center;
-}
+
 
 @media (max-width: 991px) {
+	#about{
+		height: 800px;
+
+	}
+	#about p{
+		font-size: 18px;
+		}
 	.row .right {
 		display: none;
 	}
+	.column{
+		display:none;
+	}
+	#event-track>h2{
+     display :none;
+	}
+	.e_card{
+		display: none;
+	}
+}
+.column{
+	padding-top: 15px;
+	width:20%;
+	height: 200px;
+	align-items: center;
+	background: none;
+}
+.e_card{
+	transition: all 0.4s ease-in-out;
+	object-fit: contain;
+	background-color: none;
+	height:170px;
+	border: 2px white solid;
+	border-radius: 5%;
+	box-shadow: 2px 4px black;
+	text-align: center;
+}
+.e_card:hover{
+	transform: scale(1.1);
+	background-color:#9d65fc;
+
+	
 }
 
-/*--------------------------------------------------------------
+.e_card>img{
+	padding-top:6px;
+	width: 110px;
+	height: auto;
+	padding-bottom:5px;
+}
+/*----------
+----------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
@@ -1009,7 +1052,7 @@ h6 {
 .time2 {
 	display: block;
 	margin-bottom: 20px;
-	font-size: 13px;
+	font-size: 13px
 	float: left;
 	text-transform: uppercase;
 	letter-spacing: 2px;
