@@ -777,7 +777,7 @@ h6 {
 }
 
 #speakers .speaker .details {
-	background: rgba(6, 12, 34, 0.76);
+	background:#161d2d ;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -2553,5 +2553,177 @@ countdown
 		font-size: 18px;
 	}
 }
-
-
+/* contests */
+.alltab{
+	width:1000px;
+	
+  }
+  .tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:20%;
+  }
+  
+  .tablink:hover {
+	background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+	color: white;
+	display: none;
+	padding: 100px 20px;
+	height: 400px;
+	margin-bottom: 50px;
+	float: left;
+	font-size: 16px;
+  }
+  #conTabs{
+	text-align: left;
+  }
+  .tabcontent>h3{
+	font-weight: 600;
+	color: #fff;
+  }
+  
+  @media (max-width: 1100px) {
+	  .alltab{
+	  width:850px;
+	  height: 600px;
+	  
+	}
+   
+	.tabcontent{
+	  height: 460px;
+	}
+  }
+  
+  @media (max-width: 870px) {
+	  .alltab{
+	  width:650px;
+	  height: 600px;
+	  
+	}
+	.tabcontent{
+	  height: 510px;
+	}
+  }
+  
+  
+  @media (max-width: 700px) {
+	.alltab{
+	  width:550px;
+	  height: 600px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 30%;
+	  height: 550px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 70%;
+	  float: right;
+	  border-left: none;
+	  height: 550px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
+  
+  @media (max-width: 600px) {
+	.alltab{
+	  width:400px;
+	  height: 700px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 30%;
+	  height: 650px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 70%;
+	  float: right;
+	  border-left: none;
+	  height: 650px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
+  
+  @media (max-width: 410px) {
+	.alltab{
+	  width:350px;
+	  height: 750px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 30%;
+	  height: 650px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 70%;
+	  float: right;
+	  border-left: none;
+	  height: 650px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
+  
