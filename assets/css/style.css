@@ -590,6 +590,7 @@ h6 {
 	padding: 12px 32px;
 	border-radius: 50px;
 	transition: 0.5s;
+	
 	line-height: 1;
 	margin: 10px;
 	color: #fff;
@@ -676,8 +677,8 @@ h6 {
 	color: #fff;
 }
 
-#about p {
-	font-size: 20px;
+#nabout p {
+	font-size: 22px;
 	margin-bottom: 10px;
 	color: #fff;
 }
@@ -688,18 +689,17 @@ h6 {
 }
 
 
-
-@media (max-width: 991px) {
-	#about{
-		height: 800px;
-
+@media(max-width:1221px){
+	.hawamhalimg>img{
+		width:200px;
+		height:100px;
 	}
-	#aboutp>p{
-		font-size: 16px;
-		padding-left:40px;
-		padding-right:40px;
-		}
-	.row .right {
+}
+@media (max-width: 991px) {
+    #evnt{
+		display: none;
+	}
+	.hawamhalimg{
 		display: none;
 	}
 	.column{
@@ -711,11 +711,14 @@ h6 {
 	.e_card{
 		display: none;
 	}
+	.aboutpp{
+		font-size: 18px;
+	}
 }
 .column{
 	padding-top: 15px;
 	width:20%;
-	height: 200px;
+	height: 270px;
 	align-items: center;
 	background: none;
 }
@@ -723,7 +726,7 @@ h6 {
 	transition: all 0.4s ease-in-out;
 	object-fit: contain;
 	background-color: none;
-	height:170px;
+	height:220px;
 	border: 2px white solid;
 	border-radius: 5%;
 	box-shadow: 2px 4px black;
@@ -742,6 +745,29 @@ h6 {
 	height: auto;
 	padding-bottom:5px;
 }
+.e_card>h3{
+	color:white;
+}
+#nabout{
+	padding: 0;
+	background-color: #161d2d;
+}
+.nabout_a{
+	padding:0;
+	margin: 0 auto;
+	width: 100vw !important;
+	height:900px;
+}
+#nabout>h2{
+	padding-top:15px;
+}
+.container .row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
 /*----------
 ----------------------------------------------------
 # Speakers Section
