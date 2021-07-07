@@ -648,6 +648,9 @@ h6 {
 	}
 }
 
+#aboutp>p{
+	padding-left:80px;
+}
 #about:before {
 	content: '';
 	background: rgba(13, 20, 41, 0.8);
@@ -691,8 +694,10 @@ h6 {
 		height: 800px;
 
 	}
-	#about p{
-		font-size: 18px;
+	#aboutp>p{
+		font-size: 16px;
+		padding-left:40px;
+		padding-right:40px;
 		}
 	.row .right {
 		display: none;
