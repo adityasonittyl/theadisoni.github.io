@@ -2758,3 +2758,410 @@ countdown
 	}
   }
   
+#giveaway{
+	background-color: #161d2d;
+	height: 500px;
+}
+.gcolumn{
+	background:none;
+	
+}
+.row .grow__item{
+	margin: 0;
+	padding: 0;
+	/* margin: 0 auto; */
+	width: 15em;
+}
+.g_card{
+	margin-top:25px;
+	height: 250px;
+	
+	margin-left: 15px;
+	margin-right: 15px;
+	border: 2px white solid;
+border-radius: 5%;
+box-shadow: 2px 4px black;
+text-align: center;
+}
+
+.g_card:hover{
+transform: scale(1.1);
+background-color:#9d65fc;
+}
+.g_card>img{
+padding-top:6px;
+width: 170px;
+height: auto;
+padding-bottom:5px;
+}
+.g_card>h4{
+	padding-top: 10px;
+	color:white;
+	font-size: 18px;
+}
+.g_card>ul{
+	color:white;
+	font-size: 14px;
+	text-align: left;
+	padding-right: 5px;
+}
+.g_card>h3{
+	padding-top: 15px;
+color:white;
+font-size: 22px;
+}
+@media (max-width: 1399px) {
+	#giveaway{
+		height: 650px;
+	}
+	#give1{
+		height: 500px;
+	}
+	.g_card{
+     height:210px
+	}
+	.g_card>h3{
+		font-size: 22px;
+	}
+	.g_card>h4{
+		font-size: 18px;
+	}
+	.g_card>ul{
+		font-size: 12px;
+	}
+	.g_card>img{
+		width:140px;
+	}
+}
+@media (max-width: 991px) {
+	#giveaway{
+		height: 750px;
+	}
+	#give1{
+		height: 650px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 13em;
+	}
+	.g_card>h4{
+		font-size: 14px;
+	}
+	.g_card>ul{
+		font-size: 11px;
+	}
+	.g_card>img{
+		width:130px;
+	}
+}
+@media (max-width: 768px) {
+	#giveaway{
+		height: 800px;
+	}
+	#give1{
+		height: 650px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 13em;
+	}
+	.g_card{
+		height: 190px;
+	}
+	.g_card>h4{
+		font-size: 14px;
+	}
+	.g_card>ul{
+		font-size: 11px;
+	}
+	.g_card>img{
+		width:100px;
+	}
+}
+@media (max-width: 528px) {
+	.g_card{
+		height:160px
+	   }
+	   .g_card>h3{
+		   font-size: 18px;
+	   }
+	   .g_card>img{
+		   width:70px;
+	   }
+	#giveaway{
+		height: 700px;
+	}
+	#give1{
+		height: 550px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 11em;
+	}
+	.g_card>h4{
+		font-size: 11px;
+	}
+	.g_card>ul{
+		font-size: 8px;
+	}
+	.g_card>img{
+		width:100px;
+	}
+}
+@media (max-width: 400px) {
+	.g_card{
+		height:160px;
+	   }
+	   .g_card>h3{
+		   font-size: 18px;
+	   }
+	   .g_card>img{
+		   width:70px;
+	   }
+	#giveaway{
+		height: 700px;
+	}
+	#give1{
+		height: 550px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 11em;
+	}
+	.g_card>h4{
+		font-size: 11px;
+	}
+	.g_card>ul{
+		font-size: 8px;
+	}
+	.g_card>img{
+		width:100px;
+	}
+}
+@media (max-width: 528px) {
+	.g_card{
+		height:140px
+	   }
+	   .g_card>h3{
+		   font-size: 18px;
+	   }
+	   .g_card>img{
+		   width:70px;
+	   }
+	#giveaway{
+		height: 700px;
+	}
+	#give1{
+		height: 550px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 11em;
+	}
+}
+@media (max-width: 399px){
+#giveaway{
+	height:1200px;
+}
+}
+/* Style tab links */
+.alltab{
+	width:1000px;
+	
+  }
+  .tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:16.66%;
+  }
+  
+  .tablink:hover {
+	background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+	color: white;
+	display: none;
+	padding: 100px 20px;
+	height: 400px;
+	margin-bottom: 50px;
+	float: left;
+	font-size: 16px;
+  }
+  #conTabs{
+	text-align: left;
+  }
+  .tabcontent>h3{
+	font-weight: 600;
+	color: #fff;
+  }
+  .tabcontent>ul {
+	list-style: none;
+	padding: 0;
+  }
+  .tabcontent> ul>li {
+	padding-left: 1.3em;
+  }
+  .tabcontent>ul> li:before {
+	content: ""; /* FontAwesome Unicode */
+	font-family: FontAwesome;
+	font-size: 22px;
+	color: rgb(255, 208, 0);
+	display: inline-block;
+	margin-left: -1.3em; /* same as padding-left set on li */
+	width: 1.3em; /* same as padding-left set on li */
+  }
+  
+  @media (max-width: 1100px) {
+	  .alltab{
+	  width:850px;
+	  height: 600px;
+	  
+	}
+   
+	.tabcontent{
+	  height: 460px;
+	}
+  }
+  
+  @media (max-width: 870px) {
+	  .alltab{
+	  width:650px;
+	  height: 600px;
+	  
+	}
+	.tabcontent{
+	  height: 510px;
+	}
+  }
+  
+  
+  @media (max-width: 700px) {
+	.alltab{
+	  width:550px;
+	  height: 600px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 35%;
+	  height: 550px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 65%;
+	  float: right;
+	  border-left: none;
+	  height: 550px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+
+	}
+  }
+  
+  @media (max-width: 600px) {
+	.alltab{
+	  width:400px;
+	  height: 700px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 35%;
+	  height: 650px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 65%;
+	  float: right;
+	  border-left: none;
+	  height: 650px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
+  
+  @media (max-width: 410px) {
+	.alltab{
+	  width:350px;
+	  height: 750px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 35%;
+	  height: 650px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 65%;
+	  float: right;
+	  border-left: none;
+	  height: 650px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
+  
