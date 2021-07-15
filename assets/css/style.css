@@ -222,6 +222,26 @@ h6 {
 		margin: 0 15px 0 0;
 	}
 }
+.contest-btn {
+	color: #fff;
+	background: #9d65fc;
+	padding: 7px 22px;
+	margin: 0 0 0 15px;
+	border-radius: 50px;
+	border: 2px solid #9d65fc;
+	transition: all ease-in-out 0.3s;
+	font-weight: 500;
+	line-height: 1;
+	font-size: 13px;
+	white-space: nowrap;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.contest-btn:hover {
+	background: none;
+	color: #fff;
+}
 
 #register-btn {
 	font-family: 'Raleway', sans-serif;
@@ -2587,7 +2607,7 @@ countdown
   
 #giveaway{
 	background-color: #161d2d;
-	height: 1300px;
+	height: 1380px;
 }
 .gcolumn{
 	background:none;
@@ -2596,7 +2616,7 @@ countdown
 #guidelines{
 	padding-left:120px;
 	padding-right:120px;
-	height:200px;
+	height:280px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2610,7 +2630,7 @@ countdown
 	#guidelines{
 		padding-left:30px;
 		padding-right:30px;
-		height:200px;
+		height:390px;
 		width:auto;
 	}
 }
@@ -2660,7 +2680,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#giveaway{
-		height: 1450px;
+		height: 1550px;
 	}
 	#give1{
 		height: 500px;
@@ -2683,7 +2703,7 @@ font-size: 22px;
 }
 @media (max-width: 991px) {
 	#giveaway{
-		height: 1600px;
+		height: 1700px;
 	}
 	.tab-content{
 		font-size: 12px;
@@ -2712,7 +2732,7 @@ font-size: 22px;
 }
 @media (max-width: 768px) {
 	#giveaway{
-		height: 1750px;
+		height: 1850px;
 	}
 	#give1{
 		height: 650px;
@@ -2741,28 +2761,28 @@ font-size: 22px;
 }
 @media(max-width:600px){
 	#giveaway{
-		height: 1950px ;
+		height: 2050px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:230px;
+	height:330px;
 	width:auto;
 	padding-bottom: 15px;
 }
 }
 @media(max-width:500px){
 	#giveaway{
-		height: 2000px ;
+		height: 2100px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:240px;
+	height:340px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2804,6 +2824,47 @@ font-size: 22px;
 		width:100px;
 	}
 }
+
+@media (max-width: 438px) {
+	.g_card{
+		height:160px;
+	   }
+	   .g_card>h3{
+		   font-size: 18px;
+	   }
+	   .g_card>img{
+		   width:70px;
+	   }
+	#giveaway{
+		height: 2350px;
+	}
+	#guidelines{
+		height: 380px;
+		padding-bottom: 10px;
+	}
+	#guidelines>p>ul>li{
+		font-size: 9px;
+   }
+	#give1{
+		height: 550px;
+	}
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 11em;
+	}
+	.g_card>h4{
+		font-size: 11px;
+	}
+	.g_card>ul{
+		font-size: 8px;
+	}
+	.g_card>img{
+		width:100px;
+	}
+}
+
 @media (max-width: 400px) {
 	.g_card{
 		height:160px;
@@ -2815,10 +2876,10 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2300px;
+		height: 2400px;
 	}
 	#guidelines{
-		height: 280px;
+		height: 380px;
 		padding-bottom: 10px;
 	}
 	#guidelines>p>ul>li{
@@ -2855,7 +2916,7 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2380px;
+		height: 2320px;
 	}
 	#give1{
 		height: 550px;
