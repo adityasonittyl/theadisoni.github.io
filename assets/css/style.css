@@ -2598,6 +2598,7 @@ countdown
 	padding-right:120px;
 	height:200px;
 	width:auto;
+	padding-bottom: 15px;
 }
 #guidelins>p>ul{
 	color:white;
@@ -2740,12 +2741,33 @@ font-size: 22px;
 }
 @media(max-width:600px){
 	#giveaway{
-		height: 1850px ;
+		height: 1950px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
+   #guidelines{
+	
+	height:230px;
+	width:auto;
+	padding-bottom: 15px;
 }
+}
+@media(max-width:500px){
+	#giveaway{
+		height: 2000px ;
+	}
+	#guidelines>p>ul{
+		font-size: 14px;
+   }
+   #guidelines{
+	
+	height:240px;
+	width:auto;
+	padding-bottom: 15px;
+}
+}
+
 @media (max-width: 528px) {
 	.g_card{
 		height:160px
@@ -2793,7 +2815,11 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2100px;
+		height: 2300px;
+	}
+	#guidelines{
+		height: 280px;
+		padding-bottom: 10px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
@@ -2829,10 +2855,13 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2150px;
+		height: 2380px;
 	}
 	#give1{
 		height: 550px;
+	}
+	#guidelines{
+		height:300px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
@@ -2900,7 +2929,7 @@ font-size: 22px;
 	padding-left: 1.3em;
   }
   .tabcontent>ul> li:before {
-	content: ""; /* FontAwesome Unicode */
+	content: "👉"; /* FontAwesome Unicode */
 	font-family: FontAwesome;
 	font-size: 22px;
 	color: rgb(255, 208, 0);
