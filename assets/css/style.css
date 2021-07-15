@@ -1083,7 +1083,7 @@ h6 {
 .time2 {
 	display: block;
 	margin-bottom: 20px;
-	font-size: 13px
+	font-size: 13px;
 	float: left;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -2584,187 +2584,34 @@ countdown
 		font-size: 18px;
 	}
 }
-/* contests */
-.alltab{
-	width:1000px;
-	
-  }
-  .tablink {
-	background-color: #555;
-	color: white;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 20px;
-	font-size: 17px;
-	width:20%;
-  }
-  
-  .tablink:hover {
-	background-color: #777;
-  }
-  
-  /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
-	color: white;
-	display: none;
-	padding: 100px 20px;
-	height: 400px;
-	margin-bottom: 50px;
-	float: left;
-	font-size: 16px;
-  }
-  #conTabs{
-	text-align: left;
-  }
-  .tabcontent>h3{
-	font-weight: 600;
-	color: #fff;
-  }
-  
-  @media (max-width: 1100px) {
-	  .alltab{
-	  width:850px;
-	  height: 600px;
-	  
-	}
-   
-	.tabcontent{
-	  height: 460px;
-	}
-  }
-  
-  @media (max-width: 870px) {
-	  .alltab{
-	  width:650px;
-	  height: 600px;
-	  
-	}
-	.tabcontent{
-	  height: 510px;
-	}
-  }
-  
-  
-  @media (max-width: 700px) {
-	.alltab{
-	  width:550px;
-	  height: 600px;
-	  
-	}
-	.tab {
-	  float: left;
-	  border: 1px solid #ccc;
-	  background-color: #555;
-	  width: 30%;
-	  height: 550px;
-	}
-	.tabcontent {
-	  background-color: none;
-	  padding: 0px 12px;
-	  border: 1px solid #ccc;
-	  width: 70%;
-	  float: right;
-	  border-left: none;
-	  height: 550px;
-	  font-size: 14px;
-	  word-wrap: break-word;
-	}
-	.tablink{
-	  background-color: #555;
-	color: white;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 20px;
-	font-size: 17px;
-	width:100%;
-	}
-  }
-  
-  @media (max-width: 600px) {
-	.alltab{
-	  width:400px;
-	  height: 700px;
-	  
-	}
-	.tab {
-	  float: left;
-	  border: 1px solid #ccc;
-	  background-color: #555;
-	  width: 30%;
-	  height: 650px;
-	}
-	.tabcontent {
-	  background-color: none;
-	  padding: 0px 12px;
-	  border: 1px solid #ccc;
-	  width: 70%;
-	  float: right;
-	  border-left: none;
-	  height: 650px;
-	  font-size: 14px;
-	  word-wrap: break-word;
-	}
-	.tablink{
-	  background-color: #555;
-	color: white;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 20px;
-	font-size: 17px;
-	width:100%;
-	}
-  }
-  
-  @media (max-width: 410px) {
-	.alltab{
-	  width:350px;
-	  height: 750px;
-	  
-	}
-	.tab {
-	  float: left;
-	  border: 1px solid #ccc;
-	  background-color: #555;
-	  width: 30%;
-	  height: 650px;
-	}
-	.tabcontent {
-	  background-color: none;
-	  padding: 0px 12px;
-	  border: 1px solid #ccc;
-	  width: 70%;
-	  float: right;
-	  border-left: none;
-	  height: 650px;
-	  font-size: 14px;
-	  word-wrap: break-word;
-	}
-	.tablink{
-	  background-color: #555;
-	color: white;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 20px;
-	font-size: 17px;
-	width:100%;
-	}
-  }
   
 #giveaway{
 	background-color: #161d2d;
-	height: 500px;
+	height: 1300px;
 }
 .gcolumn{
 	background:none;
 	
+}
+#guidelines{
+	padding-left:120px;
+	padding-right:120px;
+	height:200px;
+	width:auto;
+}
+#guidelins>p>ul{
+	color:white;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media(max-width:772px){
+	#guidelines{
+		padding-left:30px;
+		padding-right:30px;
+		height:200px;
+		width:auto;
+	}
 }
 .row .grow__item{
 	margin: 0;
@@ -2812,7 +2659,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#giveaway{
-		height: 650px;
+		height: 1450px;
 	}
 	#give1{
 		height: 500px;
@@ -2835,7 +2682,10 @@ font-size: 22px;
 }
 @media (max-width: 991px) {
 	#giveaway{
-		height: 750px;
+		height: 1600px;
+	}
+	.tab-content{
+		font-size: 12px;
 	}
 	#give1{
 		height: 650px;
@@ -2855,10 +2705,13 @@ font-size: 22px;
 	.g_card>img{
 		width:130px;
 	}
+	#guidelines>p>ul{
+         font-size: 14px;
+	}
 }
 @media (max-width: 768px) {
 	#giveaway{
-		height: 800px;
+		height: 1750px;
 	}
 	#give1{
 		height: 650px;
@@ -2881,6 +2734,17 @@ font-size: 22px;
 	.g_card>img{
 		width:100px;
 	}
+	#guidelines>p>ul{
+		font-size: 14px;
+   }
+}
+@media(max-width:600px){
+	#giveaway{
+		height: 1850px ;
+	}
+	#guidelines>p>ul{
+		font-size: 14px;
+   }
 }
 @media (max-width: 528px) {
 	.g_card{
@@ -2892,8 +2756,12 @@ font-size: 22px;
 	   .g_card>img{
 		   width:70px;
 	   }
+
+	   #guidelines>p>ul{
+		font-size: 12px;
+   }
 	#giveaway{
-		height: 700px;
+		height: 2050px;
 	}
 	#give1{
 		height: 550px;
@@ -2925,8 +2793,11 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 700px;
+		height: 2100px;
 	}
+	#guidelines>p>ul>li{
+		font-size: 9px;
+   }
 	#give1{
 		height: 550px;
 	}
@@ -2946,9 +2817,10 @@ font-size: 22px;
 		width:100px;
 	}
 }
-@media (max-width: 528px) {
+
+@media (max-width: 360px) {
 	.g_card{
-		height:140px
+		height:160px;
 	   }
 	   .g_card>h3{
 		   font-size: 18px;
@@ -2957,26 +2829,34 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 700px;
+		height: 2150px;
 	}
 	#give1{
 		height: 550px;
 	}
+	#guidelines>p>ul>li{
+		font-size: 9px;
+   }
 	.row .grow__item{
 		margin: 0;
 		padding: 0;
 		/* margin: 0 auto; */
 		width: 11em;
 	}
-}
-@media (max-width: 399px){
-#giveaway{
-	height:1200px;
-}
+	.g_card>h4{
+		font-size: 11px;
+	}
+	.g_card>ul{
+		font-size: 8px;
+	}
+	.g_card>img{
+		width:100px;
+	}
 }
 /* Style tab links */
 .alltab{
 	width:1000px;
+	height: 650px;
 	
   }
   .tablink {
@@ -3056,24 +2936,24 @@ font-size: 22px;
   @media (max-width: 700px) {
 	.alltab{
 	  width:550px;
-	  height: 600px;
+	  height: 700px;
 	  
 	}
 	.tab {
 	  float: left;
 	  border: 1px solid #ccc;
 	  background-color: #555;
-	  width: 35%;
-	  height: 550px;
+	  width: 30%;
+	  height: 650px;
 	}
 	.tabcontent {
 	  background-color: none;
 	  padding: 0px 12px;
 	  border: 1px solid #ccc;
-	  width: 65%;
+	  width: 70%;
 	  float: right;
 	  border-left: none;
-	  height: 550px;
+	  height: 650px;
 	  font-size: 14px;
 	  word-wrap: break-word;
 	}
@@ -3094,7 +2974,7 @@ font-size: 22px;
   @media (max-width: 600px) {
 	.alltab{
 	  width:400px;
-	  height: 700px;
+	  height: 900px;
 	  
 	}
 	.tab {
@@ -3102,7 +2982,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 650px;
+	  height: 900px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3111,7 +2991,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 650px;
+	  height: 900px;
 	  font-size: 14px;
 	  word-wrap: break-word;
 	}
@@ -3128,10 +3008,10 @@ font-size: 22px;
 	}
   }
   
-  @media (max-width: 410px) {
+  @media (max-width: 421px) {
 	.alltab{
 	  width:350px;
-	  height: 750px;
+	  height: 850px;
 	  
 	}
 	.tab {
@@ -3139,7 +3019,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 650px;
+	  height: 850px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3148,8 +3028,8 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 650px;
-	  font-size: 14px;
+	  height: 850px;
+	  font-size: 12px;
 	  word-wrap: break-word;
 	}
 	.tablink{
@@ -3165,3 +3045,39 @@ font-size: 22px;
 	}
   }
   
+  @media (max-width: 360px) {
+	.alltab{
+	  width:350px;
+	  height: 900px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 35%;
+	  height: 900px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 65%;
+	  float: right;
+	  border-left: none;
+	  height: 900px;
+	  font-size: 12px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
