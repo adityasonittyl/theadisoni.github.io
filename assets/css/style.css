@@ -2603,6 +2603,7 @@ countdown
 	.linkstree>span>i{
 		font-size: 18px;
 	}
+
 }
   
 #giveaway{
@@ -2916,13 +2917,13 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2320px;
+		height: 2500px;
 	}
 	#give1{
 		height: 550px;
 	}
 	#guidelines{
-		height:300px;
+		height:400px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
