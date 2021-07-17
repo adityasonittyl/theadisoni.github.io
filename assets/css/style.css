@@ -2773,6 +2773,8 @@ font-size: 22px;
 	height:680px;
 	width:auto;
 	padding-bottom: 15px;
+	padding-left:80px;
+	padding-right:80px;
 }
 }
 @media(max-width:500px){
@@ -2783,7 +2785,8 @@ font-size: 22px;
 		font-size: 14px;
    }
    #guidelines{
-	
+	padding-left:60px;
+	padding-right:60px;
 	height:820px;
 	width:auto;
 	padding-bottom: 15px;
@@ -2809,6 +2812,8 @@ font-size: 22px;
 	}
 	#guidelines{
 		height: 720px;
+		padding-left:40px;
+	padding-right:40px;
 	}
 	#give1{
 		height: 550px;
@@ -2836,6 +2841,8 @@ font-size: 22px;
 	#guidelines{
 		height: 680px;
 		padding-bottom: 10px;
+		padding-left:40px;
+	padding-right:40px;
 	}
 	
 }
@@ -2853,8 +2860,10 @@ font-size: 22px;
 		height: 2950px;
 	}
 	#guidelines{
-		height: 1000px;
+		height: 800px;
 		padding-bottom: 10px;
+		padding-left:20px;
+	padding-right:20px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
