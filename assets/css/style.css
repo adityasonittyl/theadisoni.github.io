@@ -2608,7 +2608,7 @@ countdown
   
 #giveaway{
 	background-color: #161d2d;
-	height: 1380px;
+	height: 1450px;
 }
 .gcolumn{
 	background:none;
@@ -2617,7 +2617,7 @@ countdown
 #guidelines{
 	padding-left:120px;
 	padding-right:120px;
-	height:280px;
+	height:330px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2627,14 +2627,7 @@ countdown
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-@media(max-width:772px){
-	#guidelines{
-		padding-left:30px;
-		padding-right:30px;
-		height:390px;
-		width:auto;
-	}
-}
+
 .row .grow__item{
 	margin: 0;
 	padding: 0;
@@ -2681,7 +2674,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#giveaway{
-		height: 1550px;
+		height: 1580px;
 	}
 	#give1{
 		height: 500px;
@@ -2703,12 +2696,11 @@ font-size: 22px;
 	}
 }
 @media (max-width: 991px) {
-	#giveaway{
-		height: 1700px;
-	}
+
 	.tab-content{
 		font-size: 12px;
 	}
+ 
 	#give1{
 		height: 650px;
 	}
@@ -2731,12 +2723,21 @@ font-size: 22px;
          font-size: 14px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width:975px) {
 	#giveaway{
 		height: 1900px;
 	}
+	#guidelines{
+		height: 450px;
+		
+	}
+}
+@media (max-width: 768px) {
+	#giveaway{
+		height: 2100px;
+	}
 	#give1{
-		height: 650px;
+		height: 750px;
 	}
 	.row .grow__item{
 		margin: 0;
@@ -2769,21 +2770,21 @@ font-size: 22px;
    }
    #guidelines{
 	
-	height:380px;
+	height:680px;
 	width:auto;
 	padding-bottom: 15px;
 }
 }
 @media(max-width:500px){
 	#giveaway{
-		height: 2250px ;
+		height: 2350px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:400px;
+	height:820px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2804,7 +2805,10 @@ font-size: 22px;
 		font-size: 12px;
    }
 	#giveaway{
-		height: 2300px;
+		height: 2400px;
+	}
+	#guidelines{
+		height: 720px;
 	}
 	#give1{
 		height: 550px;
@@ -2830,7 +2834,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 430px;
+		height: 680px;
 		padding-bottom: 10px;
 	}
 	
@@ -2846,10 +2850,10 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2450px;
+		height: 2950px;
 	}
 	#guidelines{
-		height: 460px;
+		height: 1000px;
 		padding-bottom: 10px;
 	}
 	#guidelines>p>ul>li{
@@ -2886,10 +2890,10 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2500px;
+		height: 3700px;
 	}
 	#guidelines{
-		height: 490px;
+		height: 1280px;
 		padding-bottom: 10px;
 	}
 	#guidelines>p>ul>li{
