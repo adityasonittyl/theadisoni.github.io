@@ -2606,7 +2606,7 @@ countdown
 
 }
   
-#giveaway{
+#contests{
 	background-color: #161d2d;
 	height: 1450px;
 }
@@ -2673,7 +2673,7 @@ color:white;
 font-size: 22px;
 }
 @media (max-width: 1399px) {
-	#giveaway{
+	#contests{
 		height: 1580px;
 	}
 	#give1{
@@ -2719,7 +2719,7 @@ font-size: 22px;
 	.g_card>img{
 		width:130px;
 	}
-	#giveaway{
+	#contests{
 		height: 1750px;
 	}
 	#guidelines{
@@ -2732,7 +2732,7 @@ font-size: 22px;
 	}
 }
 @media (max-width:975px) {
-	#giveaway{
+	#contests{
 		height: 1900px;
 	}
 	#guidelines{
@@ -2741,7 +2741,7 @@ font-size: 22px;
 	}
 }
 @media (max-width: 768px) {
-	#giveaway{
+	#contests{
 		height: 2100px;
 	}
 	#guidelines{
@@ -2775,7 +2775,7 @@ font-size: 22px;
    }
 }
 @media(max-width:600px){
-	#giveaway{
+	#contests{
 		height: 2250px ;
 	}
 	#guidelines>p>ul{
@@ -2791,7 +2791,7 @@ font-size: 22px;
 }
 }
 @media(max-width:500px){
-	#giveaway{
+	#contests{
 		height: 2350px ;
 	}
 	#guidelines>p>ul{
@@ -2820,7 +2820,7 @@ font-size: 22px;
 	   #guidelines>p>ul{
 		font-size: 12px;
    }
-	#giveaway{
+	#contests{
 		height: 2350px;
 	}
 	#guidelines{
@@ -2848,7 +2848,7 @@ font-size: 22px;
 	}
 }
 @media (max-width:496px) {
-	#giveaway{
+	#contests{
 		height: 2350px;
 	}
 	#guidelines{
@@ -2869,7 +2869,7 @@ font-size: 22px;
 	   .g_card>img{
 		   width:70px;
 	   }
-	#giveaway{
+	#contests{
 		height: 2550px;
 	}
 	#guidelines{
@@ -2911,7 +2911,7 @@ font-size: 22px;
 	   .g_card>img{
 		   width:70px;
 	   }
-	#giveaway{
+	#contests{
 		height: 2600px;
 	}
 	#guidelines{
@@ -2951,7 +2951,7 @@ font-size: 22px;
 	   .g_card>img{
 		   width:70px;
 	   }
-	#giveaway{
+	#contests{
 		height: 2600px;
 	}
 	#give1{
