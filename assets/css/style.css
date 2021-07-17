@@ -2719,6 +2719,14 @@ font-size: 22px;
 	.g_card>img{
 		width:130px;
 	}
+	#giveaway{
+		height: 1750px;
+	}
+	#guidelines{
+		height: 500px;
+		padding-left:100px;
+	padding-right:100px;
+	}
 	#guidelines>p>ul{
          font-size: 14px;
 	}
@@ -2735,6 +2743,11 @@ font-size: 22px;
 @media (max-width: 768px) {
 	#giveaway{
 		height: 2100px;
+	}
+	#guidelines{
+		height: 500px;
+		padding-left:70px;
+	padding-right:70px;
 	}
 	#give1{
 		height: 750px;
@@ -2770,7 +2783,7 @@ font-size: 22px;
    }
    #guidelines{
 	
-	height:680px;
+	height:450px;
 	width:auto;
 	padding-bottom: 15px;
 	padding-left:80px;
@@ -2787,7 +2800,7 @@ font-size: 22px;
    #guidelines{
 	padding-left:60px;
 	padding-right:60px;
-	height:820px;
+	height:450px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2808,10 +2821,10 @@ font-size: 22px;
 		font-size: 12px;
    }
 	#giveaway{
-		height: 2400px;
+		height: 2350px;
 	}
 	#guidelines{
-		height: 720px;
+		height: 450px;
 		padding-left:40px;
 	padding-right:40px;
 	}
@@ -2839,7 +2852,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 680px;
+		height: 520px;
 		padding-bottom: 10px;
 		padding-left:40px;
 	padding-right:40px;
@@ -2857,10 +2870,10 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 2950px;
+		height: 2550px;
 	}
 	#guidelines{
-		height: 800px;
+		height: 540px;
 		padding-bottom: 10px;
 		padding-left:20px;
 	padding-right:20px;
@@ -2899,10 +2912,10 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#giveaway{
-		height: 3700px;
+		height: 2600px;
 	}
 	#guidelines{
-		height: 1280px;
+		height: 570px;
 		padding-bottom: 10px;
 	}
 	#guidelines>p>ul>li{
