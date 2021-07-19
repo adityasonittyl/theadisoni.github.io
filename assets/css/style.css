@@ -2771,7 +2771,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#contests{
-		height: 1580px;
+		height: 1600px;
 	}
 	#give1{
 		height: 500px;
@@ -2820,7 +2820,7 @@ font-size: 22px;
 		height: 1750px;
 	}
 	#guidelines{
-		height: 500px;
+		height: 580px;
 		padding-left:100px;
 	padding-right:100px;
 	}
@@ -2830,19 +2830,19 @@ font-size: 22px;
 }
 @media (max-width:975px) {
 	#contests{
-		height: 1900px;
+		height: 2000px;
 	}
 	#guidelines{
-		height: 450px;
+		height: 550px;
 		
 	}
 }
 @media (max-width: 768px) {
 	#contests{
-		height: 2100px;
+		height: 2200px;
 	}
 	#guidelines{
-		height: 500px;
+		height: 580px;
 		padding-left:70px;
 	padding-right:70px;
 	}
@@ -2873,14 +2873,14 @@ font-size: 22px;
 }
 @media(max-width:600px){
 	#contests{
-		height: 2250px ;
+		height: 2350px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:450px;
+	height:550px;
 	width:auto;
 	padding-bottom: 15px;
 	padding-left:80px;
@@ -2889,7 +2889,7 @@ font-size: 22px;
 }
 @media(max-width:500px){
 	#contests{
-		height: 2350px ;
+		height: 2450px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
@@ -2897,7 +2897,7 @@ font-size: 22px;
    #guidelines{
 	padding-left:60px;
 	padding-right:60px;
-	height:450px;
+	height:550px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2921,7 +2921,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 450px;
+		height: 550px;
 		padding-left:40px;
 	padding-right:40px;
 	}
@@ -2949,7 +2949,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 520px;
+		height: 580px;
 		padding-bottom: 10px;
 		padding-left:40px;
 	padding-right:40px;
@@ -2970,7 +2970,7 @@ font-size: 22px;
 		height: 2550px;
 	}
 	#guidelines{
-		height: 540px;
+		height: 580px;
 		padding-bottom: 10px;
 		padding-left:20px;
 	padding-right:20px;
@@ -3009,11 +3009,15 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#contests{
-		height: 2600px;
+		height: 2650px;
 	}
 	#guidelines{
-		height: 570px;
+		height: 590px;
 		padding-bottom: 10px;
+	}
+	.contest-btn{
+		font-size: 9px;
+
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
@@ -3049,13 +3053,13 @@ font-size: 22px;
 		   width:70px;
 	   }
 	#contests{
-		height: 2600px;
+		height: 2650px;
 	}
 	#give1{
 		height: 550px;
 	}
 	#guidelines{
-		height:520px;
+		height:580px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
