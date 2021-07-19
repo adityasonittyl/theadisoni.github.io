@@ -2714,7 +2714,7 @@ countdown
 #guidelines{
 	padding-left:120px;
 	padding-right:120px;
-	height:330px;
+	height:380px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -2772,6 +2772,9 @@ font-size: 22px;
 @media (max-width: 1399px) {
 	#contests{
 		height: 1600px;
+	}
+	#guidelines{
+		height: 600px;
 	}
 	#give1{
 		height: 500px;
