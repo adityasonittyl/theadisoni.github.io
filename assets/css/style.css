@@ -1213,7 +1213,7 @@ h6 {
 
 .timeline-body > p,
 .timeline-body2 {
-	float: right;
+	float: left;
 	color: #fff;
 }
 
@@ -2705,7 +2705,7 @@ countdown
   
 #contests{
 	background-color: #161d2d;
-	height: 1450px;
+	height: 1650px;
 }
 .gcolumn{
 	background:none;
