@@ -2840,9 +2840,17 @@ font-size: 22px;
 		
 	}
 }
+@media (max-height:768px) {
+	#contests{
+		height:2500px;
+	}
+	#guidlines{
+		height:600px;
+	}
+}
 @media (max-width: 768px) {
 	#contests{
-		height: 2400px;
+		height: 2200px;
 	}
 	#guidelines{
 		height: 580px;
