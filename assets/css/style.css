@@ -2705,7 +2705,7 @@ countdown
   
 #contests{
 	background-color: #161d2d;
-	height: 1650px;
+	height: 1600px;
 }
 .gcolumn{
 	background:none;
@@ -2840,14 +2840,7 @@ font-size: 22px;
 		
 	}
 }
-@media (max-height:768px) {
-	#contests{
-		height:2500px;
-	}
-	#guidlines{
-		height:600px;
-	}
-}
+
 @media (max-width: 768px) {
 	#contests{
 		height: 2200px;
@@ -3319,3 +3312,96 @@ font-size: 22px;
 	width:100%;
 	}
   }
+#keynote{
+	align-self: center;
+	height: 240px;
+	width:800px;
+	background-color: none;
+	flex-wrap: nowrap;
+}
+#k-note{
+	padding-top: 15px;
+	color:white;
+}
+#k-head{
+	font-weight: bold;
+	color:white;
+	}
+#k-notes{
+	font-style: italic;
+	color:white;
+	}
+.key-img{
+	width:30%;
+	float:left;
+}
+.thekey-note{
+	width:70%;
+}
+#keynote2{
+	height:1px;
+	background-color: crimson;
+	overflow: hidden;
+}
+@media (max-width: 887px){
+     #keynote{
+		 width:700px;
+	 }
+	 #k-head{
+		font-weight: bold;
+		color:white;
+		font-size: 20px;
+		}
+    #k-notes{
+		font-size: 15px;
+
+		
+	}
+	.key-img{
+		width:30%;
+		float:left;
+	}
+	.thekey-note{
+		width:70%;
+		padding-right: 5px;
+	}
+}
+@media (max-width: 768px){
+	
+    #keynote{
+		height:300px;
+		width: 550px;
+	}
+	#k-head{
+		font-weight: bold;
+		color:white;
+		font-size: 17px;
+		}
+}
+@media (max-width: 618px){
+	
+    #keynote{
+		height:300px;
+		width: auto;
+	}
+	#k-head{
+		font-weight: bold;
+		color:white;
+		font-size: 17px;
+		}
+}
+@media (max-width: 575px){
+	
+	#kpimg{
+		
+		background-color: aqua;
+	}
+	#k-note{
+		height: 280px;
+	}
+   #k-notes{
+	word-wrap: break-word;
+   }
+}
+
+
