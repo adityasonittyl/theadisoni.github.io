@@ -889,6 +889,7 @@ h6 {
 ----------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
+
 #speakers {
 	padding: 0;
 	background-color: #161d2d;
@@ -3312,96 +3313,71 @@ font-size: 22px;
 	width:100%;
 	}
   }
+#spimg{
+	width:250px;
+}
 #keynote{
-	align-self: center;
-	height: 240px;
-	width:800px;
-	background-color: none;
-	flex-wrap: nowrap;
+	
+	width:auto;
 }
-#k-note{
-	padding-top: 15px;
-	color:white;
-}
-#k-head{
+#key_head{
 	font-weight: bold;
-	color:white;
-	}
-#k-notes{
+}
+#key_img{
+	padding-left: 220px;
+	padding-right: 80px;
+}
+#key_note{
+	padding-right: 220px;
+	padding-top: 30px;
+}
+#key_para{
 	font-style: italic;
-	color:white;
-	}
-.key-img{
-	width:30%;
-	float:left;
+	color: white;
+	font-weight:300 ;
 }
-.thekey-note{
-	width:70%;
-}
-#keynote2{
-	height:1px;
-	background-color: crimson;
-	overflow: hidden;
-}
-@media (max-width: 887px){
-     #keynote{
-		 width:700px;
-	 }
-	 #k-head{
-		font-weight: bold;
-		color:white;
-		font-size: 20px;
-		}
-    #k-notes{
-		font-size: 15px;
-
-		
+@media(max-width:989px){
+	#key_img{
+		padding-left: 250px;
+		padding-right: 80px;
 	}
-	.key-img{
-		width:30%;
-		float:left;
+	#key_note{
+		padding-left: 140px;
+		padding-right: 110px ;
 	}
-	.thekey-note{
-		width:70%;
-		padding-right: 5px;
-	}
-}
-@media (max-width: 768px){
 	
-    #keynote{
-		height:300px;
-		width: 550px;
-	}
-	#k-head{
-		font-weight: bold;
-		color:white;
-		font-size: 17px;
-		}
 }
-@media (max-width: 618px){
+@media(max-width:765px){
+	#key_img{
+		padding-left: 150px;
+		padding-right: 80px;
+	}
+	#key_note{
+		padding-left: 90px;
+		padding-right: 70px ;
+	}
 	
-    #keynote{
-		height:300px;
-		width: auto;
-	}
-	#k-head{
-		font-weight: bold;
-		color:white;
-		font-size: 17px;
-		}
 }
-@media (max-width: 575px){
+@media(max-width:537px){
+	#key_img{
+		padding-left: 130px;
+		padding-right: 80px;
+	}
+	#key_note{
+		padding-left: 90px;
+		padding-right: 70px ;
+	}
 	
-	#kpimg{
-		
-		background-color: aqua;
-	}
-	#k-note{
-		height: 280px;
-	}
-   #k-notes{
-	word-wrap: break-word;
-   }
 }
-
-
+@media(max-width:470px){
+	#key_img{
+		padding-left: 110px;
+		padding-right: 80px;
+	}
+	#key_note{
+		padding-left: 60px;
+		padding-right: 30px ;
+		padding-top: 15px;
+	}
+	
+}
