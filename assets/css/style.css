@@ -2780,7 +2780,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#contests{
-		height: 2400px;
+		height: 2250px;
 	}
 	#conguide{
 		padding-left:80px;
@@ -2844,7 +2844,7 @@ font-size: 22px;
 		width:130px;
 	}
 	#contests{
-		height: 2650px;
+		height: 2350px;
 	}
 	#guidelines{
 		height: 550px;
@@ -2857,7 +2857,7 @@ font-size: 22px;
 }
 @media (max-width:975px) {
 	#contests{
-		height: 2000px;
+		height: 2100px;
 	}
 	#guidelines{
 		height: 400px;
@@ -2875,7 +2875,7 @@ font-size: 22px;
 
 @media (max-width: 768px) {
 	#contests{
-		height: 2400px;
+		height: 2280px;
 	}
 	#guidelines{
 		height: 470px;
@@ -3110,6 +3110,52 @@ font-size: 22px;
 	}
 	#guidelines{
 		height:550px;
+	}
+	#guidelines>p>ul>li{
+		font-size: 9px;
+   }
+	.row .grow__item{
+		margin: 0;
+		padding: 0;
+		/* margin: 0 auto; */
+		width: 11em;
+	}
+	.g_card>h4{
+		font-size: 11px;
+	}
+	.g_card>ul{
+		font-size: 8px;
+	}
+	.g_card>img{
+		width:100px;
+	}
+}
+
+@media (max-width: 320px) {
+	.g_card{
+		height:160px;
+	   }
+	   .g_card>h3{
+		   font-size: 18px;
+	   }
+	   .g_card>img{
+		   width:70px;
+	   }
+	   #conguide{
+		padding-left:20px;
+		padding-right:20px;
+		height:450px;
+		width:auto;
+		padding-bottom: 15px;
+	}
+	#contests{
+		height: 2750px;
+	}
+	#give1{
+		height: 550px;
+	}
+	#guidelines{
+		height:650px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
