@@ -2706,7 +2706,7 @@ countdown
   
 #contests{
 	background-color: #161d2d;
-	height: 1600px;
+	height: 1800px;
 }
 .gcolumn{
 	background:none;
@@ -2715,10 +2715,11 @@ countdown
 #guidelines{
 	padding-left:120px;
 	padding-right:120px;
-	height:500px;
+	height:400px;
 	width:auto;
 	padding-bottom: 15px;
 }
+
 #guidelins>p>ul{
 	color:white;
 	font-size: 16px;
@@ -2770,12 +2771,28 @@ padding-bottom:5px;
 color:white;
 font-size: 22px;
 }
+#conguide{
+	padding-left:120px;
+	padding-right:120px;
+	height:250px;
+	width:auto;
+	padding-bottom: 15px;
+}
 @media (max-width: 1399px) {
 	#contests{
-		height: 1600px;
+		height: 2400px;
+	}
+	#conguide{
+		padding-left:80px;
+		padding-right:80px;
+		height:350px;
+		width:auto;
+		padding-bottom: 15px;
 	}
 	#guidelines{
-		height: 600px;
+		height: 500px;
+		padding-left: 80px;
+		padding-right: 80px;
 	}
 	#give1{
 		height: 500px;
@@ -2797,7 +2814,13 @@ font-size: 22px;
 	}
 }
 @media (max-width: 991px) {
-
+    #conguide{
+		padding-left:70px;
+		padding-right:70px;
+		height:400px;
+		width:auto;
+		padding-bottom: 15px;
+	}
 	.tab-content{
 		font-size: 12px;
 	}
@@ -2821,12 +2844,12 @@ font-size: 22px;
 		width:130px;
 	}
 	#contests{
-		height: 1750px;
+		height: 2650px;
 	}
 	#guidelines{
-		height: 580px;
-		padding-left:100px;
-	padding-right:100px;
+		height: 550px;
+		padding-left:80px;
+	padding-right:80px;
 	}
 	#guidelines>p>ul{
          font-size: 14px;
@@ -2837,19 +2860,34 @@ font-size: 22px;
 		height: 2000px;
 	}
 	#guidelines{
-		height: 550px;
-		
+		height: 400px;
+		padding-left:50px;
+		padding-right:50px;
+	}
+	#conguide{
+		padding-left:50px;
+		padding-right:50px;
+		height:300px;
+		width:auto;
+		padding-bottom: 15px;
 	}
 }
 
 @media (max-width: 768px) {
 	#contests{
-		height: 2200px;
+		height: 2400px;
 	}
 	#guidelines{
-		height: 580px;
-		padding-left:70px;
-	padding-right:70px;
+		height: 470px;
+		padding-left:40px;
+	     padding-right:40px;
+	}
+	#conguide{
+		padding-left:40px;
+		padding-right:40px;
+		height:380px;
+		width:auto;
+		padding-bottom: 15px;
 	}
 	#give1{
 		height: 750px;
@@ -2878,14 +2916,14 @@ font-size: 22px;
 }
 @media(max-width:600px){
 	#contests{
-		height: 2350px ;
+		height: 2450px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:550px;
+	height:500px;
 	width:auto;
 	padding-bottom: 15px;
 	padding-left:80px;
@@ -2900,8 +2938,8 @@ font-size: 22px;
 		font-size: 14px;
    }
    #guidelines{
-	padding-left:60px;
-	padding-right:60px;
+	padding-left:40px;
+	padding-right:40px;
 	height:550px;
 	width:auto;
 	padding-bottom: 15px;
@@ -2926,7 +2964,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 550px;
+		height: 450px;
 		padding-left:40px;
 	padding-right:40px;
 	}
@@ -2954,7 +2992,7 @@ font-size: 22px;
 		height: 2350px;
 	}
 	#guidelines{
-		height: 580px;
+		height: 490px;
 		padding-bottom: 10px;
 		padding-left:40px;
 	padding-right:40px;
@@ -2974,8 +3012,15 @@ font-size: 22px;
 	#contests{
 		height: 2550px;
 	}
+	#conguide{
+		padding-left:20px;
+		padding-right:20px;
+		height:350px;
+		width:auto;
+		padding-bottom: 15px;
+	}
 	#guidelines{
-		height: 580px;
+		height: 520px;
 		padding-bottom: 10px;
 		padding-left:20px;
 	padding-right:20px;
@@ -3017,7 +3062,7 @@ font-size: 22px;
 		height: 2650px;
 	}
 	#guidelines{
-		height: 590px;
+		height: 550px;
 		padding-bottom: 10px;
 	}
 	.contest-btn{
@@ -3064,7 +3109,7 @@ font-size: 22px;
 		height: 550px;
 	}
 	#guidelines{
-		height:580px;
+		height:550px;
 	}
 	#guidelines>p>ul>li{
 		font-size: 9px;
@@ -3088,7 +3133,7 @@ font-size: 22px;
 /* Style tab links */
 .alltab{
 	width:1000px;
-	height: 650px;
+	height: 500px; 
 	
   }
   .tablink {
@@ -3100,7 +3145,7 @@ font-size: 22px;
 	cursor: pointer;
 	padding: 14px 20px;
 	font-size: 17px;
-	width:16.66%;
+	width:50%;
   }
   
   .tablink:hover {
@@ -3113,6 +3158,7 @@ font-size: 22px;
 	display: none;
 	padding: 100px 20px;
 	height: 400px;
+
 	margin-bottom: 50px;
 	float: left;
 	font-size: 16px;
@@ -3156,11 +3202,11 @@ font-size: 22px;
   @media (max-width: 870px) {
 	  .alltab{
 	  width:650px;
-	  height: 600px;
+	  height: 500px;
 	  
 	}
 	.tabcontent{
-	  height: 510px;
+	  height: 400px;
 	}
   }
   
@@ -3168,7 +3214,7 @@ font-size: 22px;
   @media (max-width: 700px) {
 	.alltab{
 	  width:550px;
-	  height: 700px;
+	  height: 380px;
 	  
 	}
 	.tab {
@@ -3176,7 +3222,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 30%;
-	  height: 650px;
+	  height: 350px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3185,7 +3231,7 @@ font-size: 22px;
 	  width: 70%;
 	  float: right;
 	  border-left: none;
-	  height: 650px;
+	  height: 350px;
 	  font-size: 14px;
 	  word-wrap: break-word;
 	}
@@ -3206,7 +3252,7 @@ font-size: 22px;
   @media (max-width: 600px) {
 	.alltab{
 	  width:400px;
-	  height: 900px;
+	  height: 500px;
 	  
 	}
 	.tab {
@@ -3214,7 +3260,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 900px;
+	  height: 450px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3223,7 +3269,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 900px;
+	  height: 450px;
 	  font-size: 14px;
 	  word-wrap: break-word;
 	}
@@ -3243,7 +3289,7 @@ font-size: 22px;
   @media (max-width: 421px) {
 	.alltab{
 	  width:350px;
-	  height: 850px;
+	  height: 400px;
 	  
 	}
 	.tab {
@@ -3251,7 +3297,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 850px;
+	  height: 360px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3260,7 +3306,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 850px;
+	  height: 360px;
 	  font-size: 12px;
 	  word-wrap: break-word;
 	}
@@ -3280,7 +3326,7 @@ font-size: 22px;
   @media (max-width: 360px) {
 	.alltab{
 	  width:350px;
-	  height: 900px;
+	  height: 350x;
 	  
 	}
 	.tab {
@@ -3288,7 +3334,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 900px;
+	  height: 330px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3297,7 +3343,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 900px;
+	  height: 330px;
 	  font-size: 12px;
 	  word-wrap: break-word;
 	}
