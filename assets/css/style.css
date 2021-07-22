@@ -3334,7 +3334,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 330px;
+	  height: 370px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3343,7 +3343,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 330px;
+	  height: 370px;
 	  font-size: 12px;
 	  word-wrap: break-word;
 	}
