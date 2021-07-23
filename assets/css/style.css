@@ -2214,7 +2214,8 @@ h6 {
 	transform:translate(-50%,-50%) perspective(500px) ;
 	text-shadow:12px 6px 4px rgba(0,0,0,.2);
 	color:#fff;
-	font-family:sans-serif;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
 	width:7.5em;
 	font-size:28px;
 	height:2.5em;
