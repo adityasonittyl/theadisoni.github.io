@@ -2706,7 +2706,7 @@ countdown
   
 #contests{
 	background-color: #161d2d;
-	height: 1800px;
+	height: 1900px;
 }
 .gcolumn{
 	background:none;
@@ -2780,7 +2780,7 @@ font-size: 22px;
 }
 @media (max-width: 1399px) {
 	#contests{
-		height: 2250px;
+		height: 2300px;
 	}
 	#conguide{
 		padding-left:80px;
@@ -2857,7 +2857,7 @@ font-size: 22px;
 }
 @media (max-width:975px) {
 	#contests{
-		height: 2100px;
+		height: 2150px;
 	}
 	#guidelines{
 		height: 400px;
@@ -2875,7 +2875,7 @@ font-size: 22px;
 
 @media (max-width: 768px) {
 	#contests{
-		height: 2280px;
+		height: 2230px;
 	}
 	#guidelines{
 		height: 470px;
@@ -3179,8 +3179,8 @@ font-size: 22px;
 /* Style tab links */
 .alltab{
 	width:1000px;
-	height: 500px; 
-	
+	height: 550px; 
+
   }
   .tablink {
 	background-color: #555;
@@ -3192,6 +3192,7 @@ font-size: 22px;
 	padding: 14px 20px;
 	font-size: 17px;
 	width:50%;
+
   }
   
   .tablink:hover {
@@ -3203,8 +3204,8 @@ font-size: 22px;
 	color: white;
 	display: none;
 	padding: 100px 20px;
-	height: 400px;
-
+	height: 450px;
+ 
 	margin-bottom: 50px;
 	float: left;
 	font-size: 16px;
@@ -3248,11 +3249,14 @@ font-size: 22px;
   @media (max-width: 870px) {
 	  .alltab{
 	  width:650px;
-	  height: 500px;
+	  height: 600px;
 	  
 	}
 	.tabcontent{
-	  height: 400px;
+	  height: 500px;
+	}
+	#contests{
+		height:2390px
 	}
   }
   
@@ -3261,6 +3265,7 @@ font-size: 22px;
 	.alltab{
 	  width:550px;
 	  height: 380px;
+	
 	  
 	}
 	.tab {
@@ -3271,8 +3276,7 @@ font-size: 22px;
 	  height: 350px;
 	}
 	.tabcontent {
-	  background-color: none;
-	  padding: 0px 12px;
+	   padding: 0px 12px;
 	  border: 1px solid #ccc;
 	  width: 70%;
 	  float: right;
@@ -3280,6 +3284,7 @@ font-size: 22px;
 	  height: 350px;
 	  font-size: 14px;
 	  word-wrap: break-word;
+	 
 	}
 	.tablink{
 	  background-color: #555;
@@ -3335,7 +3340,7 @@ font-size: 22px;
   @media (max-width: 421px) {
 	.alltab{
 	  width:350px;
-	  height: 400px;
+	  height: 480px;
 	  
 	}
 	.tab {
@@ -3343,7 +3348,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 360px;
+	  height: 430px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3352,7 +3357,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 360px;
+	  height: 430px;
 	  font-size: 12px;
 	  word-wrap: break-word;
 	}
@@ -3372,7 +3377,7 @@ font-size: 22px;
   @media (max-width: 360px) {
 	.alltab{
 	  width:350px;
-	  height: 350x;
+	  height: 470px;
 	  
 	}
 	.tab {
@@ -3380,7 +3385,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 370px;
+	  height: 450px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3389,7 +3394,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 370px;
+	  height: 450px;
 	  font-size: 12px;
 	  word-wrap: break-word;
 	}
