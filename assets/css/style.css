@@ -2212,7 +2212,7 @@ h6 {
 	position:absolute;
 	
 	transform:translate(-50%,-50%) perspective(500px) ;
-	text-shadow:12px 6px 4px rgba(0,0,0,.2);
+	text-shadow:12px 6px 4px rgba(119, 116, 116, 0.603);
 	color:#fff;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	
