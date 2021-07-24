@@ -2997,14 +2997,14 @@ font-size: 22px;
 }
 @media(max-width:600px){
 	#contests{
-		height: 2450px ;
+		height: 2600px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
    }
    #guidelines{
 	
-	height:500px;
+	height:600px;
 	width:auto;
 	padding-bottom: 15px;
 	padding-left:80px;
@@ -3013,7 +3013,7 @@ font-size: 22px;
 }
 @media(max-width:500px){
 	#contests{
-		height: 2450px ;
+		height: 2750px ;
 	}
 	#guidelines>p>ul{
 		font-size: 14px;
@@ -3021,7 +3021,7 @@ font-size: 22px;
    #guidelines{
 	padding-left:40px;
 	padding-right:40px;
-	height:550px;
+	height:700px;
 	width:auto;
 	padding-bottom: 15px;
 }
@@ -3042,10 +3042,10 @@ font-size: 22px;
 		font-size: 12px;
    }
 	#contests{
-		height: 2350px;
+		height: 2650px;
 	}
 	#guidelines{
-		height: 450px;
+		height: 550px;
 		padding-left:40px;
 	padding-right:40px;
 	}
@@ -3070,10 +3070,10 @@ font-size: 22px;
 }
 @media (max-width:496px) {
 	#contests{
-		height: 2350px;
+		height: 2650px;
 	}
 	#guidelines{
-		height: 490px;
+		height: 690px;
 		padding-bottom: 10px;
 		padding-left:40px;
 	padding-right:40px;
