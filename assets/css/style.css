@@ -6,7 +6,11 @@ body {
 	color: #2f3138;
 	font-family: 'Open Sans', sans-serif;
 }
-
+.responsive{
+	width: 100%;
+	max-width: 600px;
+  height: auto;
+}
 #s21 {
 	font-size: 1.2em;
 	color: #fff;
@@ -635,6 +639,30 @@ h6 {
 	border: 2px solid #9d65fc;
 }
 
+.regis {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 32px;
+	border-radius: 50px;
+	transition: 0.5s;
+	
+	line-height: 1;
+	margin: 40px;
+	color: #fff;
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+	border: 2px solid #9d65fc;
+	background: #9d65fc;
+}
+
+.regis:hover {
+	background: none;
+	color: #fff;
+	border: 2px solid #9d65fc;
+}
 #hero .play-btn {
 	width: 94px;
 	height: 94px;
