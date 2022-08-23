@@ -587,9 +587,15 @@ h6 {
 	font-family: 'Raleway', sans-serif;
 	padding-top:0em ;
 	margin-top: 0em;
-	font-size: 46px;
+	font-size: 5rem;
 	font-weight: 600;
 	text-transform: uppercase;
+}
+.awscomHead{
+	font-size: 1.5rem;
+}
+.dayDate{
+	font-size: 20px;
 }
 .extraspace{
 	height: 80px;
