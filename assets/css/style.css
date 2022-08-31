@@ -1170,12 +1170,12 @@ h6 {
 	-moz-border-radius: 2px;
 	-ms-border-radius: 2px;
 	border-radius: 2px;
-	height: 155px;
+	height: 130px;
 }
 
 .timeline > li > .timeline-panel:before {
 	position: absolute;
-	top: 80px;
+	top: 55px;
 	right: -15px;
 	display: inline-block;
 	border-top: 15px solid transparent;
@@ -1188,7 +1188,7 @@ h6 {
 
 .timeline > li > .timeline-panel:after {
 	position: absolute;
-	top: 81px;
+	top: 55px;
 	right: -14px;
 	display: inline-block;
 
