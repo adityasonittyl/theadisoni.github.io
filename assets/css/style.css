@@ -909,6 +909,10 @@ h6 {
 	.aboutpp>p{
 		font-size: 10px;
 	}
+	#trackEvent{
+		height: 10px;
+		display: none;
+	}
 }
 .column{
 	padding-top: 15px;
@@ -2345,6 +2349,15 @@ float:left;
         width:20em;
 	}
 }
+@media(max-width:474px){
+#assoplat{
+	height:100px;
+}
+.nabout_a{
+	height:1450px;
+}
+}
+
 @media(max-width:631px){
 	.shinebtn {
 	
