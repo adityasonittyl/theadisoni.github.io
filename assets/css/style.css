@@ -870,9 +870,11 @@ h6 {
 	height: max-content;
 }
 #nabout p {
-	font-size: 22px;
+	/* font-size: 22px; */
+	text-align: justify;
 	margin-bottom: 10px;
 	color: #fff;
+	margin-right: 20px;
 }
 
 .row .right {
@@ -3663,4 +3665,40 @@ font-size: 22px;
 		padding-top: 15px;
 	}
 	
+}
+/* Swiper */
+.swiper-pointer-events {
+    touch-action: pan-y;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+#gallery .swiper-pagination .swiper-pagination-bullet {
+	margin-top: 50px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #9d65fc;
+}
+
+.wh2{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	margin-top: 30px;
+	font-size: 26px;
+}
+.wh2p{
+	font-size: 24px;
+	color:white;
+
 }
