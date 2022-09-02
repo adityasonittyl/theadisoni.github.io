@@ -874,7 +874,7 @@ h6 {
 	text-align: justify;
 	margin-bottom: 10px;
 	color: #fff;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .row .right {
@@ -915,6 +915,9 @@ h6 {
 		height: 10px;
 		display: none;
 	}
+	#nabout >p{
+		margin-right: 0px;
+	}
 }
 .column{
 	padding-top: 15px;
@@ -953,6 +956,7 @@ h6 {
 	padding: 0;
 	background-color: #161d2d;
 }
+
 .nabout_a{
 	padding:0;
 	margin: 0 auto;
