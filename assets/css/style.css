@@ -163,9 +163,30 @@ h6 {
 }
 
 .section-with-bg {
-	background-color: #f6f7fd;
-}
+	background-color: #161d2d;
 
+}
+.card2{
+	border: 1px solid #777;
+	padding: 20px 10px;
+	border-radius: 5px;
+	height: 550px;
+}
+.cardul{
+	height: 310px
+}
+#buy-tickets{
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hrline{
+	height: 1px;
+	width: 100%;
+	background-color: rgb(58, 58, 58);
+	margin-bottom: 10px;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -220,6 +241,16 @@ h6 {
 @media (max-width: 992px) {
 	#header #logo img {
 		max-height: 70px;
+	}
+	#buy-tickets{
+		height: 1200px;
+	}
+	.cardul{
+		height: 330px ;
+	}
+	.card2{
+
+		
 	}
 }
 
@@ -961,7 +992,7 @@ h6 {
 	padding:0;
 	margin: 0 auto;
 	width: 100vw !important;
-	height:1200px;
+	height:750px;
 }
 #nabout>h2{
 	padding-top:15px;
@@ -2672,7 +2703,25 @@ countdown
 	padding: 10px;
 	height: 250px;
 }
+.buyclass{
+	color: #fbfbfb;
+	font-size: 14px;
+	padding: 5px;
 
+}
+.card-price{
+	color: white;
+	
+	font-size: 44px;
+	
+}
+.buycard{
+	color: #a1a7ac;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
 .tag {
 	background: #cccccc;
 	font-family: cursive;
