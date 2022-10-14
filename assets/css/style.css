@@ -3009,6 +3009,35 @@ countdown
 	background-color: #161d2d;
 	height: 1900px;
 }
+  
+#contest{
+	background-color: #161d2d;
+	height: 400px;
+	padding-top: 50px;
+}
+@media screen (max-width:1400px){
+	#Giveaways{
+		background-color: #161d2d;
+		height: 500px;
+		padding-top: 50px;
+	}
+}
+.spontalk{
+	align-items: center;
+	text-align: center;
+	color: white;
+	height: 100px;
+}
+.spontalk>h4{
+	color: white;
+	font-size: 18px;
+	padding: 30px;
+}
+#Giveaways{
+	background-color: #161d2d;
+	height: 500px;
+	padding-top: 50px;
+}
 .gcolumn{
 	background:none;
 	
