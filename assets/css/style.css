@@ -3015,11 +3015,20 @@ countdown
 	height: 400px;
 	padding-top: 50px;
 }
-@media screen (max-width:1400px){
-	#Giveaways{
-		background-color: #161d2d;
+@media (max-width:530px){
+	#contest{
 		height: 500px;
-		padding-top: 50px;
+	}
+	#cGiveaway{
+		height:650px;
+	}
+}
+@media (max-width:530px){
+	#contest{
+		height: 500px;
+	}
+	#cGiveaway{
+		height:750px;
 	}
 }
 .spontalk{
