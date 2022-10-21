@@ -1033,6 +1033,12 @@ h6 {
 	/* margin: 0 auto; */
 	width: 12em;
 }
+.row .srow__item {
+	margin: 0;
+	padding: 0;
+	/* margin: 0 auto; */
+	width: 15em;
+}
 
 #speakers .speaker {
 	position: relative;
