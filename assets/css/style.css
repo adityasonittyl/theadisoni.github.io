@@ -3018,17 +3018,17 @@ countdown
   
 #contest{
 	background-color: #161d2d;
-	height: 400px;
+	height: 650px;
 	padding-top: 50px;
 }
-@media (max-width:530px){
+/* @media (max-width:530px){
 	#contest{
-		height: 500px;
+		height: 700px;
 	}
 	#cGiveaway{
 		height:650px;
 	}
-}
+} */
 @media (max-width:530px){
 	#contest{
 		height: 500px;
@@ -3638,7 +3638,7 @@ font-size: 22px;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 14px 20px;
+	padding: 18px 25px;
 	font-size: 17px;
 	width:100%;
 
@@ -3648,7 +3648,7 @@ font-size: 22px;
   @media (max-width: 600px) {
 	.alltab{
 	  width:400px;
-	  height: 500px;
+	  height: 650px;
 	  
 	}
 	.tab {
@@ -3656,7 +3656,7 @@ font-size: 22px;
 	  border: 1px solid #ccc;
 	  background-color: #555;
 	  width: 35%;
-	  height: 450px;
+	  height: 500px;
 	}
 	.tabcontent {
 	  background-color: none;
@@ -3665,7 +3665,7 @@ font-size: 22px;
 	  width: 65%;
 	  float: right;
 	  border-left: none;
-	  height: 450px;
+	  height: 500px;
 	  font-size: 14px;
 	  word-wrap: break-word;
 	}
@@ -3682,6 +3682,45 @@ font-size: 22px;
 	}
   }
   
+  @media (max-width: 533px) {
+	#contest{
+     height: 700px;
+	}
+	.alltab{
+	  width:400px;
+	  height: 650px;
+	  
+	}
+	.tab {
+	  float: left;
+	  border: 1px solid #ccc;
+	  background-color: #555;
+	  width: 35%;
+	  height: 500px;
+	}
+	.tabcontent {
+	  background-color: none;
+	  padding: 0px 12px;
+	  border: 1px solid #ccc;
+	  width: 65%;
+	  float: right;
+	  border-left: none;
+	  height: 500px;
+	  font-size: 14px;
+	  word-wrap: break-word;
+	}
+	.tablink{
+	  background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 20px;
+	font-size: 17px;
+	width:100%;
+	}
+  }
   @media (max-width: 421px) {
 	.alltab{
 	  width:350px;
@@ -3713,7 +3752,7 @@ font-size: 22px;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 14px 20px;
+	padding: 18px 20px;
 	font-size: 17px;
 	width:100%;
 	}
