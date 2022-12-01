@@ -898,10 +898,12 @@ h6 {
 	color: #fff;
 }
 #nabout{
-	height: max-content;
+	height: 860px;
 }
 #nabout p {
-	/* font-size: 22px; */
+	padding-left: 10px;
+	padding-right: 10px;
+	 font-size: 18px; 
 	text-align: justify;
 	margin-bottom: 10px;
 	color: #fff;
