@@ -2581,7 +2581,7 @@ countdown
 .countdown>div {
 	margin: 1em;
 	text-align: center;
-	border: 2px solid #fff;
+	/* border: 2px solid #fff; */
 	border-radius: 50%;
 	/* padding-top: 22px; */
 	box-shadow: 0px 2px 10px black;
@@ -2594,9 +2594,10 @@ countdown
 .countdown>div:hover {
 	margin: 1em;
 	text-align: center;
-	border: 2px solid #9d65fc;
+	/* border: 2px solid #9d65fc; */
 	border-radius: 50%;
-	background-color: #9d65fc;
+	/* background-color: #9d65fc; */
+	/* background-color: #60586d; */
 	/* padding-top: 22px; */
 	box-shadow: 0px 2px 10px black;
 	box-sizing: border-box;
@@ -4159,7 +4160,7 @@ countdown
 }
 
 .wh2p {
-	font-size: 24px;
+	font-size: 22px;
 	color: white;
 
 }
