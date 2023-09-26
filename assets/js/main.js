@@ -238,17 +238,17 @@
         });
     });
 
-    function loadImages() {
-        const elm = document.getElementById('image-crouse');
-        Array(9)
-            .fill('')
-            .forEach((el, i) => {
-                const img = `<div class="swiper-slide"><a href="assets/img/Gallery/img${
-                    i + 1
-                }.jpeg" class="gallery-lightbox"><img
-                    src="assets/img/Gallery/img${i + 1}.jpeg" class="img-fluid" alt=""></a></div>`;
-                elm.appendChild(img);
-            });
-    }
-    loadImages();
+    // function loadImages() {
+    //     const elm = document.getElementById('image-crouse');
+    //     Array(9)
+    //         .fill('')
+    //         .forEach((el, i) => {
+    //             const img = `<div class="swiper-slide"><a href="assets/img/Gallery/img${
+    //                 i + 1
+    //             }.jpeg" class="gallery-lightbox"><img
+    //                 src="assets/img/Gallery/img${i + 1}.jpeg" class="img-fluid" alt=""></a></div>`;
+    //             elm.appendChild(img);
+    //         });
+    // }
+    // loadImages();
 })();
