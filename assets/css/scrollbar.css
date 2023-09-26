@@ -1,0 +1,30 @@
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+	background: #5c5c5c; /* Change the thumb background color */
+	border-radius: 8px; /* Add border-radius for a rounded thumb */
+	border: 2px solid #5c5c5c; /* Add a border around the thumb */
+  }
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar {
+	width: 10px; /* Adjust the scrollbar width */
+  }
+  
+  /* Style the scrollbar track background */
+  ::-webkit-scrollbar-track {
+	background: #f2f2f2; /* Change the track background color */
+	border-radius: 10px; /*Add border-radius for a rounded track */
+  }
+  
+  /* Optionally, style the scrollbar when it's in a hover state */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #383838; 
+	border: 2px solid #383838; 
+  }
+  
+  /* Optionally, style the scrollbar when it's in an active or clicked state *//* Change the thumb background color on click */
+  /* ::-webkit-scrollbar-thumb:active {
+	background: #161d2d; 
+	border: 2px solid #161d2d; 
+  } */
+  

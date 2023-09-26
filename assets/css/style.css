@@ -5,7 +5,10 @@ body {
 	background: #fff;
 	color: #2f3138;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
 }
+
+
 
 .responsive {
 	width: 100%;
