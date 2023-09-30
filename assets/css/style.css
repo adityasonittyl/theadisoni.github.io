@@ -2116,7 +2116,7 @@ h6 {
 .item__hero {
     width: 6em;
     height: 6em;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -2130,7 +2130,7 @@ h6 {
 }
 
 .team__row {
-    padding-top: 3em;
+    padding-top: 0;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -2904,7 +2904,8 @@ countdown
 }
 
 .user img {
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    border-radius: 17%;
     width: 180px;
     height: 180px;
     object-fit: cover;
