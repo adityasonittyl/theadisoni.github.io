@@ -2128,6 +2128,22 @@ h6 {
     object-fit: cover;
     border-radius: 50%;
 }
+.hero__item1 {
+    width: 7em;
+    height: 7em;
+    margin: 1em 0.5em;
+}
+.hero__item1 img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 3px;
+    border-color: solid;
+}
 
 .team__row {
     padding-top: 0;
