@@ -3776,35 +3776,45 @@ countdown
     padding: 0;
 }
 
-.tabcontent > ul > li {
+/* .tabcontent > ul > li {
     padding-left: 1.3em;
-}
+} */
 
 .tabcontent > ul > li:before {
-    content: '👉';
+    content: '👉 ';
     /* FontAwesome Unicode */
     font-family: FontAwesome;
     font-size: 22px;
     color: rgb(255, 208, 0);
     display: inline-block;
-    margin-left: -1.3em;
+    /* margin-left: -1.3em; */
     /* same as padding-left set on li */
     width: 1.3em;
+    margin-right: 5px;
     /* same as padding-left set on li */
 }
 
 #contestcol li:before {
-    content: '👉';
+    content: '👉 ';
     /* FontAwesome Unicode */
     font-family: FontAwesome;
     font-size: 22px;
     color: rgb(255, 208, 0);
     display: inline-block;
-    margin-left: -1.3em;
+    /* margin-left: -1.3em; */
     /* same as padding-left set on li */
+    margin-right: 5px;
     width: 1.3em;
     /* same as padding-left set on li */
 }
+
+.contest-heading {
+        font-weight: 600;
+        font-size: 24px;
+        margin-block: 5px !important;
+        color: antiquewhite;
+    }
+
 
 @media (max-width: 1100px) {
     .alltab {
@@ -3843,7 +3853,7 @@ countdown
         border: 1px solid #ccc;
         background-color: #555;
         width: 30%;
-        height: 350px;
+        height: 380px;
     }
 
     .tabcontent {
@@ -3852,8 +3862,8 @@ countdown
         width: 70%;
         float: right;
         border-left: none;
-        height: 350px;
-        font-size: 14px;
+        height: 380px;
+        font-size: 12px;
         word-wrap: break-word;
     }
 
@@ -3892,7 +3902,7 @@ countdown
         float: right;
         border-left: none;
         height: 500px;
-        font-size: 14px;
+        font-size: 12px;
         word-wrap: break-word;
     }
 
@@ -3935,7 +3945,7 @@ countdown
         float: right;
         border-left: none;
         height: 500px;
-        font-size: 14px;
+        font-size: 12px;
         word-wrap: break-word;
     }
 
@@ -3963,7 +3973,7 @@ countdown
         border: 1px solid #ccc;
         background-color: #555;
         width: 35%;
-        height: 430px;
+        height: 500px;
     }
 
     .tabcontent {
@@ -3973,8 +3983,8 @@ countdown
         width: 65%;
         float: right;
         border-left: none;
-        height: 430px;
-        font-size: 12px;
+        height: 500px;
+        font-size: 11px;
         word-wrap: break-word;
     }
 
@@ -4002,7 +4012,7 @@ countdown
         border: 1px solid #ccc;
         background-color: #555;
         width: 35%;
-        height: 450px;
+        height: 480px;
     }
 
     .tabcontent {
@@ -4012,8 +4022,8 @@ countdown
         width: 65%;
         float: right;
         border-left: none;
-        height: 450px;
-        font-size: 12px;
+        height: 480px;
+        font-size: 11px;
         word-wrap: break-word;
     }
 
