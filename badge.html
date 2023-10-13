@@ -120,27 +120,35 @@
       margin-left: -5px;
     } */
     .user>img {
-      width: 105px;
-      height: 105px;
-      margin-top: -77px;
-      margin-left: -119px;
-    }
+    width: 105px;
+    height: 105px;
+    margin-top: -80px;
+    margin-left: -119px;
+}
 
+    .cardwp {
+  position: relative;
+  width: 22em;
+  height: 28em;
+  background: transparent; /* Set the background of the card to transparent */
+}
 
-    #card1 {
-      background-image: url(./assets/img/Badges/11.png);
-      /* width: 350px;
-      height: 450px;
-      background-size: cover; */
-    }
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
 
-    #card2 {
-      background-image: url(./assets/img/Badges/12.png);
-      /* width: 350px;
-      height: 450px;
-      background-size: cover; */
-    }
-
+.user {
+  position: absolute;
+  z-index: 2; /* Ensure that the user image is positioned relative to the card */
+  /* Add any additional styling for the user image */
+}
     input[type="text"] {
       width: 70%;
       height: 40%;
@@ -242,8 +250,8 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="phero">
+   <!-- ======= Hero Section ======= -->
+   <section id="phero">
     <div class="phero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0" style="font-size:48px ;">Download Your<br><span>Participation</span> Badge</h1>
       <div>
@@ -259,28 +267,24 @@
         <div class="photo_upload">
           <div id="bphoto">
             <h2 style="color: white"><b>With your Photo</b></h2>
-
+          
             <div class="card cardwp" id="card1">
-              <!-- <div class="card-header">
-              <img src="./assets/img/TransparentUGDarklogo.png" alt="logo" />
-            </div> -->
-
-
               <div class="card-body">
-                <!-- <span class="tag tag-teal">AWS UG EVENT</span> -->
-
+            
                 <div class="user">
                   <img src="./assets/img/Badges/badgeempty.png" alt="user" class="userImg" />
                 </div>
-                <!-- <p>I am attending</p>
-              <h1 class="card-head">OSTech Conf 2021</h1> -->
+              </div>
+              <div >
+                <img src="./assets/img/Badges/22.png" alt="thumbnail" class="background-image" />
               </div>
             </div>
             <div>
               <input type="file" id="mypht" style="padding-top: 18px" /><br />
-              <button type="submit" id="d_photo" " >Download</button>
+              <button type="submit" id="d_photo">Download</button>
+            </div>
           </div>
-        </div>
+          
         <div id=" bnophoto">
                 <h2 style="color: white"><b>Without your Photo</b></h2>
                 <div class="card cardwop" id="card2">
@@ -288,11 +292,8 @@
               <img src="./assets/img/TransparentUGDarklogo.png" alt="logo" />
             </div> -->
                   <div class="card-body">
-                    <!-- <span class="tag tag-teal">AWS UG EVENT</span> -->
-                    <div class="text">
-                      <!-- <p>I am attending</p>
-                <h1 class="card-head">OSTech Conf 2021</h1> -->
-                    </div>
+                    <img src="./assets/img/Badges/4.png" alt="thumbnail" class="background-image" />
+
                   </div>
                 </div>
                 <div>
@@ -300,7 +301,7 @@
                 </div>
             </div>
           </div>
-
+<!-- <div id="download-container" style="display: none;"></div> -->
 
 
         </div>
@@ -400,53 +401,172 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
 
   <!-- Template Main JS File -->
   <script>
     //previous
-    const cardwp = document.querySelector('.cardwp');
-    const cardwop = document.querySelector('.cardwop');
-    const btnUpload = document.querySelector('#u_photo');
-    const btnDownload2 = document.querySelector('#d1_photo');
-    const btnDownload = document.querySelector('#d_photo');
-    const input = document.querySelector('#mypht');
-    const image = document.querySelector('.userImg');
-    let file;
+    const cardwp = document.querySelector('#card1');
+  const cardwop = document.querySelector('.cardwop');
+  const btnUpload = document.querySelector('#u_photo');
+  const btnDownload2 = document.querySelector('#d1_photo');
+  const btnDownload = document.querySelector('#d_photo');
+  const input = document.querySelector('#mypht');
+  const image = document.querySelector('.userImg');
+  const imagecss = document.querySelector('.user > img');
+  let file;
 
-    btnDownload.addEventListener('click', async () => {
+    btnDownload.addEventListener('click',async ()=>{
       if (!file) {
         alert('please upload photo');
         return;
       }
+       // Set the desired scale (e.g., 2 for 2x scale)
+    const scale = 10;
+
+// Create an HTML2Canvas configuration object
+const config = {
+    scale: scale,
+};
+      
       const newCard = cardwp
-      newCard.style.width = '350px'
-      newCard.style.height = '450px'
+     
       btnDownload.innerHTML = 'Downloading...';
-      domtoimage
-        .toPng(newCard)
-        .then(function (dataUrl) {
-          var img = new Image();
-          img.src = dataUrl;
-          downloadURI(dataUrl, 'AWSUGjprBadge.png');
-        })
+      html2canvas(newCard,config).then(function (canvas) {
+        const dataUrl = canvas.toDataURL('image/png', 1.0);
+        downloadURI(dataUrl, 'AWSUGjprBadge.png')
+      })
         .catch(function (error) {
           console.error('oops, something went wrong!', error);
         });
       btnDownload.innerHTML = await 'Download';
     });
+    
+//   btnDownload.addEventListener('click', async () => {
+
+//       if (!file) {
+//         alert('please upload photo');
+//         return;
+//       }
+//       const elementToCapture = document.querySelector('.cardwp'); // Replace with the appropriate selector
+//     // const scaledWidth = 1400; // Desired width
+//     // const scaledHeight = 1800; // Desired height
+
+//     // Create a hidden element with the desired dimensions
+//     const largerElement = cardwp
+//     largerElement.style.width = '1400px'; // Larger width
+//     largerElement.style.height = '1800px'; // Larger height
+//     largerElement.style.position = 'fixed';
+//     image.style.width = '110px'; // Set the width to 100% to fill the parent container
+//     image.style.height = '110px'; // Maintain the aspect ratio
+//     // Temporarily remove the box-shadow
+// const originalBoxShadow = elementToCapture.style.boxShadow;
+//     elementToCapture.style.boxShadow = 'none';
+//     // Append the element to the DOM
+//     const ImageElement = image;
+//     ImageElement.style.width = '420px'; // Set the width to 100% to fill the parent container
+//     ImageElement.style.height = '415px'; // Maintain the aspect ratio
+//    // Set the clone to be hidden
+//     ImageElement.style.borderRadius = '17%'; // Maintain the aspect ratio
+//     // ImageElement.style.border = '5px solid #fff'; // Maintain the aspect ratio
+//  //   ImageElement.style.boxShadow = '0 0 0 5px #fff'; // Maintain the aspect ratio
+//     ImageElement.style.objectFit = 'cover'; // Maintain the aspect ratio
+//     ImageElement.style.background = '#fff'; // Maintain the aspect ratio
+//     ImageElement.style.backgroundSize = 'cover'; // Maintain the aspect ratio
+//     ImageElement.style.backgroundRepeat = 'no-repeat'; // Maintain the aspect ratio
+   
+//     const ImageElement2 = imagecss;
+//     ImageElement2.style.marginTop = '-320px'; // Maintain the aspect ratio
+//     ImageElement2.style.marginLeft = '-470px'; // Maintain the aspect ratio
+
+//     // ImageElement2.appendChild(ImageElement2.cloneNode(true)); // Clone the element to capture
+//     // ImageElement.appendChild(ImageElement.cloneNode(true)); // Clone the element to capture
+//     largerElement.appendChild(elementToCapture.cloneNode(true)); // Clone the element to capture
+//     largerElement.appendChild(ImageElement.cloneNode(true)); // Clone the element to capture
+//     largerElement.appendChild(ImageElement2.cloneNode(true)); // Clone the element to capture
+//     document.body.appendChild(largerElement);
+
+    
+//     // Use html2canvas to capture the larger element
+//     html2canvas(largerElement).then(function (canvas) {
+        
+       
+//        const dataUrl = canvas.toDataURL('image/png');
+        
+//         downloadURI(dataUrl, 'AWSUGjprBadge.png')
+//         // Revert the box-shadow
+//         elementToCapture.style.boxShadow = originalBoxShadow;
+//         // Remove only the larger element, not the image div
+//         document.body.removeChild(largerElement);
+        
+//        // window.location.reload();
+//     }).catch(function (error) {
+
+//         console.error('oops, something went wrong!', error);
+//     });
+//      btnDownload.innerHTML = await 'Download';
+//   });
+    
+
+  // Add an event listener to trigger the captureAndDownload function
+// document.querySelector('#d_photo').addEventListener('click', captureAndDownload);
+
+
+    // btnDownload.addEventListener('click', async () => {
+    //   if (!file) {
+    //     alert('please upload photo');
+    //     return;
+    //   }
+    //   const newCard = cardwp
+    //   newCard.style.width = '350px'
+    //   newCard.style.height = '450px'
+    //   btnDownload.innerHTML = 'Downloading...';
+    //   domtoimage
+    //     .toPng(newCard)
+    //     .then(function (dataUrl) {
+    //       var img = new Image();
+    //       img.src = dataUrl;
+    //       downloadURI(dataUrl, 'AWSUGjprBadge.png');
+    //     })
+    //     .catch(function (error) {
+    //       console.error('oops, something went wrong!', error);
+    //     });
+    //   btnDownload.innerHTML = await 'Download';
+    // });
 
     btnDownload2.addEventListener('click', async () => {
       btnDownload2.innerHTML = 'Downloading...';
-      domtoimage
-        .toPng(cardwop)
-        .then(function (dataUrl) {
-          var img = new Image();
-          img.src = dataUrl;
-          downloadURI(dataUrl, 'AWSUGJAIPUR-badge.png');
-        })
-        .catch(function (error) {
-          console.error('oops, something went wrong!', error);
-        });
+      // domtoimage
+      //   .toPng(cardwop)
+      //   .then(function (dataUrl) {
+      //     var img = new Image();
+      //     img.src = dataUrl;
+      //     downloadURI(dataUrl, 'AWSUGJAIPUR-badge.png');
+      //   })
+      //   .catch(function (error) {
+      //     console.error('oops, something went wrong!', error);
+      //   });
+      const elementToCapture = cardwop // Replace with the appropriate selector
+ 
+      const scale = 10;
+
+// Create an HTML2Canvas configuration object
+const config = {
+    scale: scale,
+};
+
+      html2canvas(elementToCapture,config).then(function (canvas) {
+        // Convert the canvas to a data URL
+      const  dataUrl = canvas.toDataURL('image/png', 1.0);
+        // Set the download attribute of the <a> element to the file name
+
+        downloadURI(dataUrl, 'AWSUGjprBadge.png')
+           // Revert the box-shadow
+           elementToCapture.style.boxShadow = originalBoxShadow;
+      }).catch(function (error) {
+        console.error('oops, something went wrong!', error);
+      });
+
       btnDownload2.innerHTML = await 'Download';
     });
 
@@ -513,7 +633,6 @@
     // Add a click event listener to the copy button
     document.getElementById("copyButton").addEventListener("click", copyToClipboard);
   </script>
-
   <script src="assets/js/main.js"></script>
 </body>
 
