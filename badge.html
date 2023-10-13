@@ -422,7 +422,7 @@
         return;
       }
        // Set the desired scale (e.g., 2 for 2x scale)
-    const scale = 10;
+    const scale = 3;
 
 // Create an HTML2Canvas configuration object
 const config = {
@@ -434,7 +434,7 @@ const config = {
       btnDownload.innerHTML = 'Downloading...';
       html2canvas(newCard,config).then(function (canvas) {
         const dataUrl = canvas.toDataURL('image/png', 1.0);
-        downloadURI(dataUrl, 'AWSUGjprBadge.png')
+        downloadURI(dataUrl, `${Date.now()}/AWSUGjprBadge.png`)
       })
         .catch(function (error) {
           console.error('oops, something went wrong!', error);
@@ -548,7 +548,7 @@ const config = {
       //   });
       const elementToCapture = cardwop // Replace with the appropriate selector
  
-      const scale = 10;
+      const scale = 3;
 
 // Create an HTML2Canvas configuration object
 const config = {
@@ -560,7 +560,7 @@ const config = {
       const  dataUrl = canvas.toDataURL('image/png', 1.0);
         // Set the download attribute of the <a> element to the file name
 
-        downloadURI(dataUrl, 'AWSUGjprBadge.png')
+        downloadURI(dataUrl, `${Date.now()}/AWSUGjprBadge.png`)
            // Revert the box-shadow
            elementToCapture.style.boxShadow = originalBoxShadow;
       }).catch(function (error) {
