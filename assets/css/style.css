@@ -1269,18 +1269,18 @@ h6 {
 }
 
 .timeline > li > .timeline-panel {
-    width: 40%;
+    width: 42%;
     color: white;
     float: left;
     border: 1px solid #d4d4d4;
-    padding: 15px;
+    padding: 10px;
     position: relative;
-    height: 150px;
+    /* height: 170px; */
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px;
-    height: 130px;
+    
 }
 
 .timeline > li > .timeline-panel:before {
