@@ -201,7 +201,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    height: 90px;
+    height: 140px;
     position: fixed;
     left: 0;
     top: 0;
@@ -213,7 +213,7 @@ h6 {
 #header.header-scrolled,
 #header.header-inner {
     background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    height:120px;
 }
 
 #header #logo h1 {
@@ -249,8 +249,11 @@ h6 {
 }
 
 @media (max-width: 992px) {
-    #header #logo img {
-        max-height: 70px;
+    #header {
+        max-height: 7em;
+    }
+   #logo img {
+        max-height: 6em;
     }
 
     #buy-tickets {
