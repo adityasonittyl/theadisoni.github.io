@@ -1,5 +1,5 @@
 //countdown timer
-var countDownDate = new Date('November 4, 2023 9:00:00').getTime();
+var countDownDate = new Date('October 5th, 2024 8:00:00').getTime();
 var x = setInterval(function () {
   var now = new Date().getTime();
   var distance = countDownDate - now;
