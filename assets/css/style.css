@@ -2110,17 +2110,22 @@ h6 {
 }
 
 .hero__item {
-    width: 5em;
-    height: 5em;
+    width: 7em;
+    height: 7em;
     /* margin: ; */
-    margin: 1em 0.5em;
+    margin: 1em 1em;
 }
 
 .item__hero {
     width: 6em;
     height: 6em;
-    margin: 0;
+    margin: 1em;
     padding: 0;
+}
+
+.item__hero img{
+    height: 100%;
+    width: 100%;
 }
 
 .hero__item img {
