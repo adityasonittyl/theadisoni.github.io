@@ -226,9 +226,20 @@ h6 {
 }
 
 #logo {
-    width: 8em;
+    width: 10em;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+.logo1{
+    width: 150em;
+    margin-right: 1em;
+}
+
+.logo2 img{
+    border-radius: 10%;
 }
 
 #header #logo h1 span {
