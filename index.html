@@ -3060,23 +3060,30 @@
       });
     </script>
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const images = document.querySelectorAll("img.lazy-img");
+document.addEventListener("DOMContentLoaded", () => {
 
-        const observer = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              const img = entry.target;
-              img.src = img.dataset.src;
-              img.classList.remove("lazy-img");
-              observer.unobserve(img);
-            }
-          });
-        }, { rootMargin: "300px" });
+  const galleries = document.querySelectorAll(".gallery-slider");
 
-        images.forEach(img => observer.observe(img));
-      });
-      </script>
+  const galleryObserver = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const gallery = entry.target;
+        const images = gallery.querySelectorAll("img.lazy-img");
+
+        images.forEach(img => {
+          img.src = img.dataset.src;
+        });
+
+        obs.unobserve(gallery);
+      }
+    });
+  }, {
+    threshold: 0.2   // only when section is actually visible
+  });
+
+  galleries.forEach(gallery => galleryObserver.observe(gallery));
+});
+</script>
       <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".gallery-slider").forEach(slider => {
