@@ -239,7 +239,12 @@ h6 {
 }
 
 .logo2 img{
+    
     border-radius: 10%;
+}
+.logo2{
+    width: 90em;
+    margin-left: 1em;
 }
 
 #header #logo h1 span {
