@@ -4165,6 +4165,19 @@ countdown
     border: 1px solid #9d65fc;
 }
 
+
+.gallery-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  width: auto !important;
+}
+
+.gallery-slider img {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+
 .lazy-img {
   object-fit: cover;
   width: 100%;
