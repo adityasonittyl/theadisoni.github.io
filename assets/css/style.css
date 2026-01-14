@@ -4165,6 +4165,12 @@ countdown
     border: 1px solid #9d65fc;
 }
 
+.lazy-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .wh2 {
     text-transform: uppercase;
     color: white;
