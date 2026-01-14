@@ -2956,7 +2956,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <!-- <script src="./assets/js/counter.js"></script> -->
@@ -3025,6 +3025,16 @@
         "https://awsugjaipur.in"
       ]
     }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".gallery-slider").forEach(slider => {
+          new Swiper(slider, {
+            preloadImages: false,
+            watchSlidesProgress: true
+          });
+        });
+      });
     </script>
 
 </body>
